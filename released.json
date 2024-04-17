@@ -1,0 +1,21 @@
+{
+  "formalgeo7k_v1": {
+    "dataset_name": "formalgeo7k",
+    "dataset_version": "v1",
+    "short_description": "6981 SAT-level problems with complete formal language and theorem sequence annotation.",
+    "license": "MIT",
+    "problem_number": 6981,
+    "formalgeo_version": "0.0.4",
+    "gdl_name": "GFS-Basic",
+    "gdl_version": "v1",
+    "problem_split": [
+      3,
+      1,
+      1,
+      619
+    ],
+    "problem_source": "Geometry3k (https://github.com/lupantech/InterGPS), GeoQA (https://github.com/chen-judge/GeoQA), GeoQA+ (https://github.com/SCNU203/GeoQA-Plus) and online resources.",
+    "release_datetime": "2023-11-08 13:01:26",
+    "downloads": "https://drive.usercontent.google.com/download?id=1w93L9ap4nrOtdyIjH9lkglgYYBni7fgS&export=download&authuser=0&confirm=t&uuid=8334c10d-2cdb-474b-ba80-08f87f506e4d&at=APZUnTWwbK0C21JRH8u_lMV8tN26%3A1713340917366"
+  }
+}

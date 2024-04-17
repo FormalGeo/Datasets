@@ -35,9 +35,6 @@ A standardized dataset release project is as follows:
     ├── diagrams/
     │   ├── 1.png
     │   └── ...
-    ├── expanded/
-    │   ├── 1.json
-    │   └── ...
     ├── files/
     │   └── ...
     ├── info.json

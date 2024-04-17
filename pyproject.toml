@@ -19,5 +19,5 @@ dependencies = [
   "formalgeo>=0.0.1"
 ]
 [project.urls]
-"Homepage" = "https://github.com/BitSecret/FormalGeo-Datasets"
-"Bug Tracker" = "https://github.com/BitSecret/FormalGeo-Datasets/issues"
+"Homepage" = "https://github.com/FormalGeo/Datasets"
+"Bug Tracker" = "https://github.com/FormalGeo/Datasets/issues"
