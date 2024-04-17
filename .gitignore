@@ -1,0 +1,13 @@
+# Byte-compiled
+__pycache__
+
+# PyCharm
+.idea
+
+# packaging
+dist
+src/Datasets.egg-info
+
+# projects and released
+/projects
+/released

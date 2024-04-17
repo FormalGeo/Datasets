@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "Datasets"
+version = "0.0.1"
+authors = [
+  { name="Xiaokai Zhang", email="xiaokaizhang1999@163.com" },
+]
+description = "Dataset Annotation Tools and Dataset Release for formal Euclidean plane geometry problems."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "formalgeo>=0.0.1"
+]
+[project.urls]
+"Homepage" = "https://github.com/BitSecret/FormalGeo-Datasets"
+"Bug Tracker" = "https://github.com/BitSecret/FormalGeo-Datasets/issues"
