@@ -159,8 +159,7 @@ def inverse_parse_target(s, language, gdl, log, pid):
         return input_s
 
 
-def inverse_parse(path_dataset):
-    gdl_source = load_json(os.path.join(path_dataset, "files/predicate_GDL-source.json"))
+def parse_raw_gdl(gdl_source):
     gdl = {}
     for p_class in ["Entity", "Relation", "Attribution"]:
         for predicate in gdl_source["Predicates"][p_class]:
@@ -171,6 +170,11 @@ def inverse_parse(path_dataset):
                 "en": [inverse_parse_gdl(p_para, s)
                        for s in gdl_source["Predicates"][p_class][predicate]["anti_parse_to_nl_en"]]
             }
+    return gdl
+
+
+def inverse_parse(path_dataset):
+    gdl = parse_raw_gdl(load_json(os.path.join(path_dataset, "files/predicate_GDL-source.json")))
     log = load_json(os.path.join(path_dataset, "files/inverse_parse_log.json"))
 
     for pid in range(log["start_pid"], load_json(os.path.join(path_dataset, "info.json"))["problem_number"] + 1):

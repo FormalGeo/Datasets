@@ -81,6 +81,7 @@ you to report any issues you encounter. Or even better, fork our repository on G
 
 If you wish to reference **a specific dataset**, please read the `README` file in the published dataset or contact the
 dataset's author.  
+
 If you are referencing code within the project, please use:
 > Xiaokai, Zhang., Na, Zhu., Yiming, He., Jia, Zou., ... & Tuo, Leng. (2023). FormalGeo: The First Step Toward
 > Human-like IMO-level Geometric Automated Reasoning. arXiv preprint arXiv:2310.18021.

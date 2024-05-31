@@ -5,5 +5,5 @@
 """fgdat: FormalGeo datasets annotation tools."""
 
 __all__ = [
-    "formalgeo7k_v1", "formalgeo7k_v2"
+    "expanded", "files", "gdl", "problems", "relsease"
 ]
